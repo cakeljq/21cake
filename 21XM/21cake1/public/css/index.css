@@ -1,0 +1,179 @@
+/*主页样式*/
+ul{
+    list-style: none;
+}
+img{
+    margin:0;
+    padding:0;
+    border:none;
+}
+.my-row{
+    position:fixed;
+}
+img.my_img1{
+    height:16rem;
+}
+h3 .card{
+    background:#e8e8e8;
+}
+.my_home-title{
+    font-size: 26px;
+    color: #724228;
+    line-height: 36px;
+    width: 1100px;
+    margin: 0 auto 20px;
+}
+.pic{
+    text-align: center;
+}
+.my_list{
+    border: 1px solid #D5BFA7;
+    border-radius: 90%;
+    padding: 0 6px 0 8px;
+    margin: 8px 3px;
+
+}
+/*杞挱鍥炬牱寮?*/
+.my_lunbo{
+    width: 100%;
+    height:100%;
+}
+.my_home{
+    width:1124px;
+    margin: 26px auto 0;
+    overflow: hidden;
+    padding-top: 0;
+}
+@media screen and (max-width: 767px) {
+    img.my_img1{
+        width:24rem;
+    }
+}
+
+/*锟斤拷一锟叫的第讹拷锟介布锟斤拷锟斤拷式*/
+img.my_img2{
+    height:12rem;
+    margin-left:-8rem;
+}
+@media screen and (max-width: 767px) {
+    img.my_img2{
+        margin-left:0 !important;
+        width:14rem;
+    }
+    .my_mt{
+        margin-top: 1rem;
+    }
+    .my_pr{
+        padding-right: 15px !important;
+    }
+}
+.img_lunbotu{
+    margin-top: -70px;
+}
+.carousel{
+    margin-top:-20px;
+}
+/*轮播图大小*/
+.div_lu{
+    height:700px;
+}
+/*1F样式*/
+.color-product-list{
+    position: relative;
+    width:100%;
+}
+.my_li_img{
+    width:245px;
+    height:230px;
+    background: #fafafa  url(../img/index/list-img.png) center  no-repeat;
+    align-content: center;
+    background-size: auto 100%;
+}
+.my-tu{
+    width:263px;
+    height:230px;
+    align-content: center;
+}
+.h6{
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 22px;
+    color: #000;
+}
+.tag-list{
+    width:245px;
+    height:35px;
+    overflow: hidden;
+    font-size:0.7rem;
+}
+.tag-list a{
+    display: inline-block;
+    border: 1px solid #D5BFA7;
+    border-radius: 100px;
+    padding: 0 6px 0 8px;
+    color: #D5BFA7;
+    margin: 8px 3px;
+    font-size: 12px;
+}
+    .my_price-color{
+        font-size: 14px;
+        color: #616161;
+        line-height: 24px;
+    }
+    h6{
+        font-size: 16px;
+        margin-top: 10px;
+        line-height: 22px;
+        color: #000;
+    }
+      .my_card-info{ border-top: 1px dashed #D5BFA7;
+        height: 37px;
+        color: #b0986f;
+        margin-top: 6px;
+        padding-top: 14px;
+        -webkit-font-smoothing: antialiased;
+      }
+      .my_card-info .card-add{
+          float: right;
+          display: inline-block;
+          line-height: 20px;
+          font-size: 12px;
+          background: #643E28;
+          color: #fff;
+          padding: 0 10px;
+      }
+      /*甘一客，文章图片样式*/
+   .home-s img{
+       width: 542px;
+   }
+    .magazine-conten{
+        width: 1116px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 6px 0;
+    }
+    .magazine-conten li h4{
+        font-size: 24px;
+        color: #000;
+        margin-top: 14px;
+        padding: 0 16px;
+
+    }
+    span{
+        color: #AD814B;
+        display: inline-block;
+    }
+    .magazine-conten li img{
+        width: 542px;
+        height: 252px;
+    }
+   .magazine-conten li{
+       float: left;
+       background: #fff;
+       box-shadow: 0 0 6px 0 rgba(0,0,0,0.10);
+       border-radius: 8px;
+       overflow: hidden;
+       width: 542px;
+       height: 345px;
+       margin: 0 8px;
+   }

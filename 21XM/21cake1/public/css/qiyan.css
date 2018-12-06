@@ -1,0 +1,25 @@
+div.my_tu{
+    width:100%;
+    height:500px;
+    background: url(../img/qiyan/national_02.jpg) no-repeat  center;
+}
+div.img-height{
+    background-size:100% 450px;
+}
+
+.my_img{
+    width: 228px;
+    height:251px;
+    align-content: center;
+}
+.my_bg_color{
+    background:#e8e8e8;
+}
+.my_btn{
+    background: gray;
+}
+.my-size-color{
+    color: #724228;
+    font-size:16px;
+}
+

@@ -1,0 +1,198 @@
+/**/
+div{
+    margin:0;
+    padding:0;
+}
+div {
+    display: block;
+}
+img,a{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5{
+    font-size: 100%;
+    font-weight: normal;
+    margin:0;
+    padding:0;
+}
+i{
+    font-style: italic;
+
+}
+.activity-content-box{
+    min-height:675px;
+}
+.nav{
+    width:100%;
+    padding: 77.5px  0;
+    margin-bottom: -55px;
+    background: url(../img/qy/bg1.png) center center no-repeat;
+}
+.nav .enterprise-box{
+    width: 880px;
+    margin: 20px auto;
+}
+ .nav .enterprise-box .table{
+     width: 100%;
+     display: table;
+     border-spacing: 0;
+     border-collapse: collapse;
+     text-align: center;
+ }
+.nav .enterprise-box .table .table-row{
+    display: table-row;
+}
+.nav .enterprise-box .table .table-row .table-cell{
+    display: table-cell;
+}
+.nav .enterprise-box.nav-box .button{
+    display: inline-block;
+    width: 133px;
+    height: 95px;
+    line-height: 95px;
+    background: rgba(128,101,84,0.10);
+    border-radius: 4px;
+}
+.nav .enterprise-box  a{
+    color: #BB9772;
+}
+.nav .enterprise-box.nav-box .button img{
+    vertical-align: middle;
+}
+/**/
+.enterprise-box{
+    width: 880px;
+    margin: 20px auto;
+}
+.enterprise-box.company-box{
+    text-align: center;
+}
+.enterprise-box .title{
+    padding-top: 100px;
+    text-align: center;
+}
+h2{
+    display: block;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.enterprise-box .logos{
+    margin-top: 28px;
+    display: inline-block;
+    overflow: hidden;
+    width: auto;
+    max-width: 100%;
+    text-align: center;
+}
+.enterprise-box .company-box a{
+    display: inline-block;
+    width: 160px;
+    margin: 20px 30px;
+    height: 160px;
+    text-align: center;
+    font-size: 14px;
+    color: #73472E;
+}
+.enterprise-box .company-box span:first-child{
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    background: #faf8f7;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.enterprise-box.company-box a{
+    text-align: center;
+    font-size:14px;
+    color: #73472e;
+}
+.enterprise-box.company-box .logos .company-logo{
+    width: 123px;
+    height: 123px;
+    max-width: 123px;
+    max-height: 123px;
+}
+.enterprise-box.company-box .logos img{
+    display: block;
+    margin: 0 auto;
+}
+/*�Ϻ�ҽҩͼƬ*/
+#shang{
+    width:294px;
+    max-width: 294px;
+    height:120px;
+}
+/*qitajigou*/
+.enterprise-box.company-box i{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: #73472E;
+    margin: auto 4px;
+    line-height: 120px;
+    margin-top: 55px;
+}
+/*������ɫ*/
+tbody>tr>td input{
+    font-size: 18px;
+    color:#fff;
+    width: 300px;
+    height:50px;
+    border: 2px  solid #724228;
+}
+
+/*中间内容*/
+.enterprise-box.tips-box{
+    margin-bottom: 50px;
+}
+.enterprise-box .title{
+    text-align: center;
+    padding-top:100px;
+}
+.enterprise-box.tips-box .faq-box{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.enterprise-box.tips-box .faq-box span{
+    display: inline-block;
+    color: #BB9772;
+    font-size: 13px;
+    padding-left: 30px;
+    background: url(../img/qy/faq.png) no-repeat center left;
+    line-height: 25px;
+}
+.enterprise-box.tips-box .cards{
+    text-align: center;
+    position: relative;
+}
+.enterprise-box.tips-box .cards .card-type{
+    width: 486px;
+    display: inline-block;
+    text-align: center;
+}
+#card-img{
+   width:486px;
+   height:222px;
+   top:40px;
+   position: relative;
+}
+ #card_imgg{
+    width:120px;
+    height:35px;   
+ }
+ .enterprise-box.tips-box .cards .card-type.type-vip{
+    width: 316px;
+    margin-right: 50px;
+ }
+ .enterprise-box.tips-box .cards .card-type img{
+     width:316px;
+     height:214px;
+ }
+ 

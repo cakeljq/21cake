@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/zhuce.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title></title>
+</head>
+<body>
+<!--引入头部-->
+<!--1.头部-->
+<!--header:左-中-右-->
+<div id="container my_div">
+    <div class="row">
+        <!--左-->
+        <div class="col-lg-2 col-md-12">
+            <img class="my_img pt-3 pb-2  ml-5" src="img/logo.png"/>
+        </div>
+        <!--中-->
+        <div class="col-lg-6 col-C:\xampp\htdocs\LC\jQuery\day02\8_tabs_transition.htmlmd-12 pt-2 pb-3">
+            <ul class="list-unstyled d-flex ">
+                <li class="nav-item my_size mr-4"><a href="#" class="nav-link"></a>首页</li>
+                <li class="nav-item my_size mr-4"><a href="#" class="nav-link"></a>蛋糕</li>
+                <li class="nav-item my_size mr-4"><a href="#" class="nav-link"></a>冰淇淋</li>
+                <li class="nav-item my_size mr-4"><a href="#" class="nav-link"></a>咖啡下午茶</li>
+                <li class="nav-item my_size mr-4"><a href="#" class="nav-link"></a>面包</li>
+                <li class="nav-item my_size mr-4"><a href="#" class="nav-link"></a>咖啡全国送</li>
+                <li class="nav-item my_size mr-4"><a href="#" class="nav-link"></a>企业专区</li>
+            </ul>
+        </div>
+        <!--中-->
+        <div class="col-lg-4 col-md-12 pt-4 ">
+            <ul class="list-unstyled d-flex">
+                <li><a href="#" class="mr-4 my_size">APP下载</a></li>
+                <li><a href="#" class="mr-4 my_size ">北京</a></li>
+                <li><a href="#" class="mr-4 my_size">消息</a></li>
+                <li><a href="#" class="my_size">登录</a></li>/
+                <li><a href="#" class="my_size">注册</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <!--login-background-->
+<div class="login-background">
+    <!--中间部分-->
+    <div class="content-box">
+        <div class="form-login-box">
+            <div class="login-regi-title">
+                <h2 class="regi-user active">用户注册</h2>
+            </div>
+            <form>
+                <div class="form-content">
+                    <ul class="reister-user">
+                        <li>
+                            <input type="text" name="loginName" autocomplete="off" autofocus="" maxlength="11" placeholder="输入手机号码" id="telephone" tabindex="1">
+                        </li>
+                        <li>
+                            <input type="password"  placeholder="密码：请输入6-20字符，需同时包含英文和数字" >
+                        </li>
+                        <li><input type="password" placeholder="确认密码" maxlength="20"></li>
+                        <li class="login-mes-unm">
+                            <input type="text" placeholder="短信验证码">
+                            <a href="#" id="regiGetCode" class="regiGetCode">获取验证码</a>
+                        </li>
+                        <li>
+                            <input id="birthday" type="text" name="birthday" data-toggle="date" placeholder="请选择生日" data-required="0" class="hasDatepicker">
+                        </li>
+                        <li class="err-text">
+                            <i></i>
+                            <span>请输入正确的手机号码</span>
+                        </li>
+                        <li>
+                            <input type="submit" class="login-button" value="注册" id="goRegister">
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--引入底部-->
+<footer>
+    <iframe src="footer.html" frameborder="0" class="my_footer"></iframe>
+</footer>
+</body>
+</html>

@@ -1,0 +1,53 @@
+/*商品导航样式*/
+ul{
+    list-style: none;
+}
+div.pro-list-filter{
+    font-size: 13px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    width: 1200px;
+    border-top: #f2f2f2 solid 1px;
+    border-bottom: #f2f2f2 solid 1px;
+    overflow: hidden;
+    padding: 8px 0;
+}
+table tr td{
+    font-size: 13px;
+}
+table tr td a{
+    margin: 15px;
+    color:#684029;
+}
+table tr td p{
+    color:#9B9B9B;
+    margin:20px;
+}
+/*商品详情*/
+.pro-list-su{
+    width: 228px;
+    text-align: center;
+    height: 364px;
+    position: relative;
+}
+.goods-list{    display: block;}
+
+.pro-list-su img{width: 228px;height: 246px;}
+
+.label{  text-align: left;  position: absolute;  left: 0;  top: 15px;  width: 100%;}
+
+.label img{width: 65px;  height: 23px;}
+
+.pro-list-su h3{ font-size: 16px;  line-height: 20px;  font-weight: normal; color:#684029;}
+
+.pro-list-su span{display: block;  color: #BB9772; line-height: 18px;  margin-top: 5px; font-size: 13px;}
+
+.label-entrance a{
+    border: 1px solid #D5BFA7;
+    border-radius: 100px;
+    padding: 0 6px 0 8px;
+    color: #D5BFA7;
+    margin: 8px 3px;
+    font-size: 12px;
+}
+.car{ font-size: 13px; color:#684029;}

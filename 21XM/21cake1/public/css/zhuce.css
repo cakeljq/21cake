@@ -1,0 +1,170 @@
+
+div,h2，a,img{
+    padding:0;
+    margin:0;
+}
+a{
+    border:none;
+}
+form{
+    display: block;
+}
+h2{
+    font-weight: normal;
+}
+
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+/*背景图片*/
+
+.login-background{
+    background:url(../img/login/bg.png) no-repeat top center;;
+    background-color: #fdfdff;
+}
+.my-color-dl{
+    color:#724228;
+}
+
+
+/*中间内容样式*/
+.content-box {
+    width: 1200px;
+    min-height: 586px;
+    position: relative;
+    height: 100%;
+    margin: 0  auto;
+    padding-bottom:50px;
+}
+
+.form-login-box{
+    position: absolute;
+    width: 388px;
+    height:450px;
+    top: 114px;
+    right: 0;
+    padding: 28px 42px;
+    border: 1px #E9E9E9 solid;
+    background: #fff;
+}
+
+.reister-user{
+    width:302px;
+    height:328px;
+
+}
+.form-content li input {
+    width: 290px;
+    padding: 0 5px;
+    height: 36px;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+    outline: none;
+    color: #442818;
+    line-height: 36px;
+    font-size: 12px;
+}
+.reister-user li {
+    position: relative;
+}
+.form-content li {
+    margin: 10px 0;
+}
+
+.login-regi-title h2.active{
+    color: #482618;
+}
+.login-regi-title h2:first-child{
+    border-right: 1px solid #DCDCDC;
+}
+.form-content {
+    padding-top: 15px;
+}
+.reister-user{
+    width:302px;
+    height:38px;
+}
+.form-content {
+    padding-top: 15px;
+}
+.login-regi-title h2.regi-user {
+    width: 100%;
+}
+.login-regi-title h2:first-child{
+    border-right: 1px solid #DCDCDC;
+}
+.login-regi-title h2 {
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    float: left;
+}
+
+/*短信验证码*/
+.form-content li.login-mes-unm {
+    height: 38px;
+    margin: 0;
+    width: 290px;
+}
+.form-content li.login-mes-unm input {
+     width: 128px;
+     float: left;
+ }
+.form-content li.login-mes-unm a {
+    display: block;
+    width: 149px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+    background: #FAFAFA;
+    border: 1px solid #EBEBEB;
+    border-radius: 2px;
+    color: #442818;
+    font-size: 13px;
+}
+/*输入正确的手机号码*/
+.form-content li.err-text {
+    position: static;
+    height: 22px;
+}
+.form-content li.err-text span {
+    line-height: 22px;
+    color: #FF714D;
+    font-size: 13px;
+}
+.reister-user li i {
+    left: 280px;
+}
+li.err-text span i {
+    display: inline-block;
+    vertical-align: middle;
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+    background: url(/themes/site/img/icon.png) no-repeat;
+    background-position: -41px -44px;
+    background-size: 310px 120px;
+    position: static;
+}
+.form-content li .login-button {
+    display: block;
+    background: #442818;
+    border-radius: 2px;
+    height: 48px;
+    width: 302px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}

@@ -1,0 +1,231 @@
+img{
+    border:none;
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+button{
+    border:none;
+}
+.first-img{
+    width:924px;
+    height:520px;
+}
+.right-list{
+    float: right;
+    width: 90px;
+    height:520px;
+    position: relative;
+    padding:250px  0  0 0;
+
+}
+.details-banner .right-list ul{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-height: 280px;
+    overflow: hidden;
+}
+ul li img{
+    width: 90px;
+    height: 50px;
+    background: #eee;
+}
+.label-entrance a{
+    display: inline-block;
+    line-height: 18px;
+    color: #D5BFA7;
+    padding: 0 10px;
+    border: 1px solid #D5BFA7;
+    border-radius: 100px;
+    margin-right: 6px;
+    font-size: 12px;
+}
+.distribution-sweet li{
+    height: 34px;
+    line-height: 34px;
+}
+.distribution-sweet li i{
+    background: url(../img/product_detailsils/sweet_02.png) no-repeat center;
+}
+  .sweet-con i{
+      height: 20px;
+      width: 20px;
+      margin: 0 7px;
+  }
+  /*购物添加表*/
+  .pro-details-cont{
+      position: relative;
+      overflow: hidden;
+      padding-bottom: 10px;
+      border-bottom: #D8D8D8 solid 1px;
+  }
+  .details-content-right{
+      width:500px;
+      margin-left:65px;
+      position: relative;
+      overflow: auto;
+  }
+.ul-a a{
+      display: inline-block;
+      line-height: 30px;
+      color: #BB9772;
+      padding: 0 16px;
+      border: 1px solid #e7e0dd;
+      margin-right: 6px;
+      font-size: 12px;
+}
+.ul-a span{
+    font-size: 12px;
+    color: #684029;
+    margin-right: 10px;
+}
+  .details-img{
+      overflow: hidden;
+      padding-top: 28px;
+      margin-bottom: 24px;
+      min-height: 80px;
+  }
+  .details-img img{
+      float: left;
+      width: 300px;
+      height: 170px;
+      display: block;
+  }
+  .left-ul{
+      float: left;
+      margin-left: 28px;
+      margin-top: 8px;
+  }
+  .details-price{
+      position: absolute;
+      height: 25px;
+      line-height: 25px;
+      font-size: 18px;
+      z-index: 10;
+      top: 165px;
+      left: 335px;
+      color: #C69C6D;
+  }
+   .details-button{
+       width: 344px;
+       height: 40px;
+       font-size: 13px;
+   }
+   .details-button button{
+       width: 167px;
+       height: 30px;
+       line-height: 30px;
+   }
+   .details-but-buy{
+       float: left;
+       background: #F4F4F4;
+       color: #7A5844;
+       text-align: center;
+       font-size: 13px;
+   }
+    .details-but-cart{
+       float: right;
+       background: #684029;
+       color: #fff;
+   }
+    .left-ul li span{
+        height: 25px;
+        line-height: 25px;
+        margin: 5px 0;
+        font-size: 12px;
+        color: #684029;
+    }
+    .pro-details-explain{
+        font-size: 12px;
+        width: 484px;
+        line-height: 2em;
+        min-height: 30px;
+        color:#684029;
+    }
+    .pro-details-title{
+        font-size: 20px;
+        line-height: 28px;
+        padding-top: 20px;
+        color:#684029;
+    }
+    .details-introduction{
+        margin-top: 12px;
+        height: auto;
+    }
+/*商品推荐样式*/
+.recommend-box h2{
+    background:#fbfbfb;
+    font-size:14px;
+    line-height:40px;
+    padding-left:18px;
+    color: #684029;
+    display: block;
+    margin-bottom: 10px;
+}
+.recommend-box li{
+    float: left;
+    width: 180px;
+    text-align: center;
+    position: relative;
+    height: 242px;
+    overflow: hidden;
+    margin-right: 70px;
+}
+
+.recommend-box{
+    overflow: hidden;
+    margin: 40px auto 50px;
+    border: 1px solid #E1E1E1;
+    width:1050px;
+    height:327px;
+}
+.recommend-box .recommend-list{
+    width:1012px;
+    height:285px;
+}
+@media screen and (max-width: 1600px)
+    .recommend-box ul {
+        height: 285px;
+    }
+    .recommend-box ul {
+        overflow: hidden;
+        margin: 0 18px;
+    }
+    a:link, a{
+        color: #684029;
+        text-decoration: none;
+        outline: none;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .recommend-box ul li img{
+        width: 180px;
+        height:190px;
+        margin-right:5px;
+
+    }
+    .recommend-box li h4{
+        font-size: 16px;
+        color:#8b663c;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .recommend-box li p{
+        font-size:16px;
+        color:#CBA375;
+    }
+
+        /* 详情图片*/
+    .details-introduction img{
+        max-width: 1050px;
+        padding-left:80px;
+        display: block;
+    }
+
